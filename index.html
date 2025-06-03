@@ -3,34 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Abhishek Shrestha - Electrical and Computer Engineering student at UT Austin, passionate about software development and embedded systems.">
-    <title>Abhishek Shrestha - Software Engineer & ECE Student</title>
+    <meta name="description" content="Abhishek Shrestha - Futuristic Electrical and Computer Engineering student at UT Austin, passionate about cutting-edge technology, embedded systems, and AI-driven software solutions.">
+    <title>Abhishek Shrestha - Future-Tech Engineer & Innovation Architect</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&family=Orbitron:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles-futuristic.css">
+    <meta name="theme-color" content="#0a0a0f">
 </head>
 <body>
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <div class="loading-container">
+            <div class="loading-circuit">
+                <div class="circuit-line"></div>
+                <div class="circuit-line"></div>
+                <div class="circuit-line"></div>
+            </div>
+            <div class="loading-text">
+                <span>INITIALIZING</span>
+                <span class="loading-dots">...</span>
+            </div>
+            <div class="loading-progress">
+                <div class="loading-bar"></div>
+            </div>
+        </div>
+    </div>
+
     <header>
         <div class="container">
             <div class="hero">
                 <div class="hero-content animate-in">
-                    <h1>Abhishek Shrestha</h1>
+                    <h1 class="glitch" data-text="Abhishek Shrestha">Abhishek Shrestha</h1>
                     <p class="tagline">Crafting digital experiences through code and creativity</p>
-                    <p>Electrical and Computer Engineering student at UT Austin, specializing in software development and embedded systems.</p>
+                    <p>Electrical and Computer Engineering student at UT Austin, architecting the future through cutting-edge embedded systems, AI-driven applications, and innovative software solutions.</p>
                     <div class="contact-info">
                         <a href="mailto:theshresthaabhishek@gmail.com" aria-label="Email me">
                             <i class="fas fa-envelope" aria-hidden="true"></i>
-                            <span>Email</span>
+                            <span>Neural Link</span>
                         </a>
                         <a href="https://www.linkedin.com/in/the-shrestha-abhishek/" target="_blank" rel="noopener noreferrer" aria-label="View my LinkedIn profile">
                             <i class="fab fa-linkedin" aria-hidden="true"></i>
-                            <span>LinkedIn</span>
+                            <span>Professional Matrix</span>
                         </a>
                         <a href="https://github.com/AbhishekS-06" target="_blank" rel="noopener noreferrer" aria-label="Check out my GitHub">
                             <i class="fab fa-github" aria-hidden="true"></i>
-                            <span>GitHub</span>
+                            <span>Code Repository</span>
                         </a>
                     </div>
                 </div>
@@ -38,25 +57,30 @@
         </div>
     </header>
 
-    <main class="container">
-        <section id="education" class="animate-in">
-            <h2><i class="fas fa-graduation-cap" aria-hidden="true"></i> Education</h2>
-            <div class="education-card">
-                <h3>University of Texas at Austin</h3>
-                <div class="date-location">
-                    <i class="fas fa-calendar-alt" aria-hidden="true"></i>
-                    <span>Expected: May 2028</span>
-                    <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
-                    <span>Austin, TX</span>
-                    <i class="fas fa-star" aria-hidden="true"></i>
-                    <span>GPA: 3.61</span>
+    <main class="container">        <section id="education" class="animate-in">
+            <h2><i class="fas fa-graduation-cap" aria-hidden="true"></i> Academic Foundation</h2>
+            <div class="card education-card">
+                <div class="card-header">
+                    <i class="fas fa-university"></i>
+                    <div>
+                        <h3>University of Texas at Austin</h3>
+                        <div class="date-location">
+                            <i class="fas fa-calendar-alt" aria-hidden="true"></i>
+                            <span>Expected: May 2028</span>
+                            <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+                            <span>Austin, TX</span>
+                            <i class="fas fa-star" aria-hidden="true"></i>
+                            <span>GPA: 3.61</span>
+                        </div>
+                    </div>
                 </div>
                 <p>Bachelor of Science in Electrical and Computer Engineering</p>
+                <div style="margin-top: 1rem; padding: 1rem; background: rgba(0, 255, 255, 0.1); border-radius: 4px; border-left: 3px solid var(--neon-cyan);">
+                    <strong>Focus Areas:</strong> Embedded Systems Design, Digital Signal Processing, Machine Learning Applications, Advanced Circuit Analysis
+                </div>
             </div>
-        </section>
-
-        <section id="skills" class="animate-in">
-            <h2><i class="fas fa-code" aria-hidden="true"></i> Technical Skills</h2>
+        </section>        <section id="skills" class="animate-in">
+            <h2><i class="fas fa-microchip" aria-hidden="true"></i> Technical Arsenal</h2>
             <div class="skills-container">
                 <div class="skill-category" tabindex="0">
                     <h3><i class="fas fa-laptop-code" aria-hidden="true"></i> Languages</h3>
@@ -75,16 +99,14 @@
                     <p>Agile/Scrum, REST APIs, Data Structures, Algorithms, TDD</p>
                 </div>
             </div>
-        </section>
-
-        <section id="experience" class="animate-in">
-            <h2><i class="fas fa-briefcase" aria-hidden="true"></i> Experience</h2>
+        </section>        <section id="experience" class="animate-in">
+            <h2><i class="fas fa-rocket" aria-hidden="true"></i> Professional Journey</h2>
             <div class="carousel-container" role="region" aria-label="Experience carousel">
                 <div class="carousel" tabindex="0">
                     <div class="experience-item">
-                        <div class="card-content">
+                        <div class="card">
                             <div class="card-header">
-                                <i class="fas fa-tree"></i>
+                                <i class="fas fa-seedling"></i>
                                 <div>
                                     <h3>Program Intern - City of Austin, Youth Forest Council</h3>
                                     <div class="date-location">
@@ -94,18 +116,18 @@
                                 </div>
                             </div>
                             <ul>
-                                <li>Led stakeholder analysis to define software features for eco-sustainability programs</li>
-                                <li>Designed and presented a technical workshop attended by 50+ participants on data systems for urban ecology</li>
-                                <li>Proposed and developed a responsive digital dashboard that increased citizen engagement by 20%</li>
-                                <li>Collaborated with cross-functional teams and presented findings during Agile sprint reviews</li>
+                                <li>Architected stakeholder analysis framework to define software features for eco-sustainability programs</li>
+                                <li>Engineered and presented a technical workshop attended by 50+ participants on data systems for urban ecology</li>
+                                <li>Designed and developed a responsive digital dashboard that increased citizen engagement by 20%</li>
+                                <li>Collaborated with cross-functional teams using Agile methodologies and presented findings during sprint reviews</li>
                             </ul>
                         </div>
                     </div>
 
                     <div class="experience-item">
-                        <div class="card-content">
+                        <div class="card">
                             <div class="card-header">
-                                <i class="fas fa-laptop-code"></i>
+                                <i class="fas fa-code"></i>
                                 <div>
                                     <h3>Software Engineering Intern - City of Austin</h3>
                                     <div class="date-location">
@@ -118,7 +140,7 @@
                                 <li>Built a full-stack web application using Flask and JavaScript to deliver real-time allergy alerts</li>
                                 <li>Mapped user stories to backend RESTful APIs and integrated real-time clinic lookup logic</li>
                                 <li>Presented technical demo and roadmap to stakeholders and participated in sprint planning</li>
-                                <li>Engaged in daily standups, version control via Git, and peer code reviews</li>
+                                <li>Engaged in daily standups, version control via Git, and conducted peer code reviews</li>
                             </ul>
                         </div>
                     </div>
@@ -129,20 +151,22 @@
                     <i class="fas fa-arrow-right"></i>
                 </div>
             </div>
-        </section>
-
-        <section id="projects" class="animate-in">
-            <h2><i class="fas fa-project-diagram" aria-hidden="true"></i> Featured Projects</h2>
+        </section>        <section id="projects" class="animate-in">
+            <h2><i class="fas fa-cube" aria-hidden="true"></i> Innovation Lab</h2>
             <div class="carousel-container" role="region" aria-label="Projects carousel">
                 <div class="carousel" tabindex="0">
                     <div class="project-item">
-                        <div class="card-content">
+                        <div class="card">
                             <div class="card-header">
                                 <i class="fas fa-gamepad"></i>
                                 <div>
                                     <h3>Byte Stars</h3>
                                     <div class="date-location">
                                         <i class="fas fa-calendar-alt"></i> Mar 2025 – May 2025
+                                        <div style="margin-top: 0.5rem;">
+                                            <span style="background: var(--neon-green); color: var(--bg-primary); padding: 0.2rem 0.5rem; border-radius: 3px; font-size: 0.7rem; font-weight: bold;">EMBEDDED</span>
+                                            <span style="background: var(--neon-blue); color: var(--bg-primary); padding: 0.2rem 0.5rem; border-radius: 3px; font-size: 0.7rem; font-weight: bold; margin-left: 0.5rem;">C++</span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -155,13 +179,17 @@
                     </div>
 
                     <div class="project-item">
-                        <div class="card-content">
+                        <div class="card">
                             <div class="card-header">
-                                <i class="fas fa-music"></i>
+                                <i class="fas fa-microphone"></i>
                                 <div>
                                     <h3>ParodyAI</h3>
                                     <div class="date-location">
                                         <i class="fas fa-calendar-alt"></i> Mar 2025 – Apr 2025
+                                        <div style="margin-top: 0.5rem;">
+                                            <span style="background: var(--neon-purple); color: var(--bg-primary); padding: 0.2rem 0.5rem; border-radius: 3px; font-size: 0.7rem; font-weight: bold;">AI/ML</span>
+                                            <span style="background: var(--neon-orange); color: var(--bg-primary); padding: 0.2rem 0.5rem; border-radius: 3px; font-size: 0.7rem; font-weight: bold; margin-left: 0.5rem;">FULL-STACK</span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -174,13 +202,17 @@
                     </div>
 
                     <div class="project-item">
-                        <div class="card-content">
+                        <div class="card">
                             <div class="card-header">
                                 <i class="fas fa-mobile-alt"></i>
                                 <div>
                                     <h3>StageNextDoor</h3>
                                     <div class="date-location">
                                         <i class="fas fa-calendar-alt"></i> Jan 2025 – May 2025
+                                        <div style="margin-top: 0.5rem;">
+                                            <span style="background: var(--neon-cyan); color: var(--bg-primary); padding: 0.2rem 0.5rem; border-radius: 3px; font-size: 0.7rem; font-weight: bold;">MOBILE</span>
+                                            <span style="background: var(--accent-gold); color: var(--bg-primary); padding: 0.2rem 0.5rem; border-radius: 3px; font-size: 0.7rem; font-weight: bold; margin-left: 0.5rem;">REACT NATIVE</span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -193,13 +225,17 @@
                     </div>
 
                     <div class="project-item">
-                        <div class="card-content">
+                        <div class="card">
                             <div class="card-header">
-                                <i class="fas fa-map"></i>
+                                <i class="fas fa-globe"></i>
                                 <div>
                                     <h3>Nepali National Parks StoryMap</h3>
                                     <div class="date-location">
                                         <i class="fas fa-calendar-alt"></i> Oct 2023 – Jan 2024
+                                        <div style="margin-top: 0.5rem;">
+                                            <span style="background: var(--neon-green); color: var(--bg-primary); padding: 0.2rem 0.5rem; border-radius: 3px; font-size: 0.7rem; font-weight: bold;">GIS</span>
+                                            <span style="background: var(--neon-blue); color: var(--bg-primary); padding: 0.2rem 0.5rem; border-radius: 3px; font-size: 0.7rem; font-weight: bold; margin-left: 0.5rem;">ARCGIS</span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -212,13 +248,17 @@
                     </div>
 
                     <div class="project-item">
-                        <div class="card-content">
+                        <div class="card">
                             <div class="card-header">
                                 <i class="fas fa-robot"></i>
                                 <div>
                                     <h3>Trivia Solver Bot</h3>
                                     <div class="date-location">
                                         <i class="fas fa-calendar-alt"></i> Jan 2023 – Mar 2023
+                                        <div style="margin-top: 0.5rem;">
+                                            <span style="background: var(--neon-orange); color: var(--bg-primary); padding: 0.2rem 0.5rem; border-radius: 3px; font-size: 0.7rem; font-weight: bold;">AUTOMATION</span>
+                                            <span style="background: var(--neon-purple); color: var(--bg-primary); padding: 0.2rem 0.5rem; border-radius: 3px; font-size: 0.7rem; font-weight: bold; margin-left: 0.5rem;">JAVA</span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -234,16 +274,163 @@
                     <span>Scroll to explore more</span>
                     <i class="fas fa-arrow-right"></i>
                 </div>
+            </div>        </section>
+
+        <section id="code-showcase" class="animate-in">
+            <h2><i class="fas fa-code" aria-hidden="true"></i> Code Showcase</h2>
+            <div class="carousel-container">
+                <div class="carousel">
+                    <div class="project-item">
+                        <div class="card">
+                            <div class="card-header">
+                                <i class="fas fa-microchip"></i>
+                                <div>
+                                    <h3>Embedded Systems - Timer Interrupt</h3>
+                                    <div class="date-location">
+                                        <span style="background: var(--neon-green); color: var(--bg-primary); padding: 0.2rem 0.5rem; border-radius: 3px; font-size: 0.7rem; font-weight: bold;">C++</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div style="background: #000; padding: 1rem; border-radius: 4px; border: 1px solid var(--neon-green); font-family: var(--font-mono); font-size: 0.85rem; overflow-x: auto;">
+<pre style="margin: 0; color: var(--neon-green);"><code><span style="color: var(--neon-purple);">#include</span> <span style="color: var(--neon-cyan);">"ti_msp_dl_config.h"</span>
+
+<span style="color: var(--neon-blue);">void</span> <span style="color: var(--neon-orange);">TIMER_0_INST_IRQHandler</span>(<span style="color: var(--neon-blue);">void</span>) {
+    <span style="color: var(--text-muted);">// Handle timer interrupt for game loop</span>
+    <span style="color: var(--neon-blue);">switch</span> (DL_Timer_getPendingInterrupt(TIMER_0_INST)) {
+        <span style="color: var(--neon-blue);">case</span> DL_TIMER_IIDX_ZERO:
+            <span style="color: var(--neon-orange);">updateGameState</span>();
+            <span style="color: var(--neon-orange);">renderFrame</span>();
+            <span style="color: var(--neon-blue);">break</span>;
+    }
+}</code></pre>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="project-item">
+                        <div class="card">
+                            <div class="card-header">
+                                <i class="fas fa-brain"></i>
+                                <div>
+                                    <h3>AI Voice Synthesis - Neural Network</h3>
+                                    <div class="date-location">
+                                        <span style="background: var(--neon-purple); color: var(--bg-primary); padding: 0.2rem 0.5rem; border-radius: 3px; font-size: 0.7rem; font-weight: bold;">PYTHON</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div style="background: #000; padding: 1rem; border-radius: 4px; border: 1px solid var(--neon-cyan); font-family: var(--font-mono); font-size: 0.85rem; overflow-x: auto;">
+<pre style="margin: 0; color: var(--neon-green);"><code><span style="color: var(--neon-blue);">def</span> <span style="color: var(--neon-orange);">synthesize_voice</span>(text, speaker_embedding):
+    <span style="color: var(--text-muted);"># Generate mel-spectrogram from text</span>
+    mel_spec = <span style="color: var(--neon-orange);">text_to_mel</span>(text, speaker_embedding)
+    
+    <span style="color: var(--text-muted);"># Convert to audio using neural vocoder</span>
+    audio = <span style="color: var(--neon-orange);">vocoder.generate</span>(mel_spec)
+    
+    <span style="color: var(--neon-blue);">return</span> <span style="color: var(--neon-orange);">normalize_audio</span>(audio)</code></pre>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="project-item">
+                        <div class="card">
+                            <div class="card-header">
+                                <i class="fas fa-mobile-alt"></i>
+                                <div>
+                                    <h3>React Native - Real-time Data Sync</h3>
+                                    <div class="date-location">
+                                        <span style="background: var(--neon-cyan); color: var(--bg-primary); padding: 0.2rem 0.5rem; border-radius: 3px; font-size: 0.7rem; font-weight: bold;">JAVASCRIPT</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div style="background: #000; padding: 1rem; border-radius: 4px; border: 1px solid var(--neon-blue); font-family: var(--font-mono); font-size: 0.85rem; overflow-x: auto;">
+<pre style="margin: 0; color: var(--neon-green);"><code><span style="color: var(--neon-blue);">const</span> <span style="color: var(--neon-orange);">useRealtimeEvents</span> = () => {
+  <span style="color: var(--neon-blue);">const</span> [events, setEvents] = <span style="color: var(--neon-orange);">useState</span>([]);
+  
+  <span style="color: var(--neon-orange);">useEffect</span>(() => {
+    <span style="color: var(--neon-blue);">const</span> unsubscribe = <span style="color: var(--neon-orange);">firestore</span>()
+      .<span style="color: var(--neon-orange);">collection</span>(<span style="color: var(--neon-cyan);">'events'</span>)
+      .<span style="color: var(--neon-orange);">onSnapshot</span>(snapshot => {
+        <span style="color: var(--neon-orange);">setEvents</span>(snapshot.docs.<span style="color: var(--neon-orange);">map</span>(doc => doc.<span style="color: var(--neon-orange);">data</span>()));
+      });
+    
+    <span style="color: var(--neon-blue);">return</span> unsubscribe;
+  }, []);
+};</code></pre>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="scroll-hint" aria-hidden="true">
+                    <i class="fas fa-arrow-left"></i>
+                    <span>View code samples</span>
+                    <i class="fas fa-arrow-right"></i>
+                </div>
             </div>
         </section>
-    </main>
 
-    <footer>
+        <section id="innovation" class="animate-in">
+            <h2><i class="fas fa-lightbulb" aria-hidden="true"></i> Innovation Hub</h2>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 2rem; margin-bottom: 3rem;">
+                <div class="card">
+                    <div class="card-header">
+                        <i class="fas fa-chart-line"></i>
+                        <div>
+                            <h3>Skills Visualization</h3>
+                        </div>
+                    </div>
+                    <div id="skills-radar" style="height: 300px; display: flex; align-items: center; justify-content: center; background: rgba(0, 255, 255, 0.05); border-radius: 8px; position: relative; overflow: hidden;">
+                        <div style="position: absolute; width: 200px; height: 200px; border: 2px solid var(--neon-cyan); border-radius: 50%; animation: radarSweep 3s infinite linear;"></div>
+                        <div style="position: absolute; width: 150px; height: 150px; border: 1px solid var(--neon-green); border-radius: 50%; opacity: 0.7;"></div>
+                        <div style="position: absolute; width: 100px; height: 100px; border: 1px solid var(--neon-blue); border-radius: 50%; opacity: 0.5;"></div>
+                        <div style="text-align: center; z-index: 2;">
+                            <div style="color: var(--neon-cyan); font-family: var(--font-tech); font-size: 1.2rem;">SKILLS RADAR</div>
+                            <div style="color: var(--text-secondary); font-size: 0.9rem;">Tracking Technical Mastery</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="card-header">
+                        <i class="fas fa-terminal"></i>
+                        <div>
+                            <h3>System Status</h3>
+                        </div>
+                    </div>
+                    <div style="font-family: var(--font-mono); font-size: 0.9rem;">
+                        <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem;">
+                            <span>Coding Efficiency:</span>
+                            <span style="color: var(--neon-green);">94%</span>
+                        </div>
+                        <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem;">
+                            <span>Learning Rate:</span>
+                            <span style="color: var(--neon-cyan);">98%</span>
+                        </div>
+                        <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem;">
+                            <span>Innovation Index:</span>
+                            <span style="color: var(--neon-purple);">92%</span>
+                        </div>
+                        <div style="display: flex; justify-content: space-between; margin-bottom: 1rem;">
+                            <span>Coffee Dependency:</span>
+                            <span style="color: var(--neon-orange);">∞</span>
+                        </div>
+                        <div style="background: rgba(0, 255, 255, 0.1); padding: 1rem; border-radius: 4px; border-left: 3px solid var(--neon-cyan);">
+                            <strong>Current Status:</strong> Actively seeking innovative opportunities in embedded systems and AI/ML development.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>    <footer>
         <div class="container">
-            <p>&copy; 2025 Abhishek Shrestha. All rights reserved.</p>
+            <p>&copy; 2025 Abhishek Shrestha. Engineered with <span style="color: var(--neon-cyan);">code</span> and powered by innovation.</p>
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <!-- Floating Action Button -->
+    <button class="fab" onclick="scrollToTerminal()" title="Access Terminal">
+        <i class="fas fa-terminal"></i>
+    </button>
+
+    <script src="script-futuristic.js"></script>
 </body>
 </html>
