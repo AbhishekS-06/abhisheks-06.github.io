@@ -1,103 +1,145 @@
-# Futuristic ECE Portfolio - Abhishek Shrestha
+# Portfolio Website - Abhishek Shrestha
 
-> **A next-generation portfolio website showcasing cutting-edge technology and innovative design**
+> **Professional portfolio website showcasing modern minimal design and technical expertise**
 
 [![Status](https://img.shields.io/badge/Status-Live-brightgreen?style=for-the-badge&logo=github)](https://abhisheks-06.github.io)
-[![Tech](https://img.shields.io/badge/Tech-Futuristic-00ffff?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEyIDJMMTMuMDkgOC4yNkwyMCAxMEwxMy4wOSAxNS43NEwxMiAyMkwxMC45MSAxNS43NEw0IDEwTDEwLjkxIDguMjZMMTIgMloiIGZpbGw9IiMwMGZmZmYiLz4KPC9zdmc+)](https://abhisheks-06.github.io)
+[![Design](https://img.shields.io/badge/Design-Minimal_Professional-blue?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEyIDJMMTMuMDkgOC4yNkwyMCAxMEwxMy4wOSAxNS43NEwxMiAyMkwxMC45MSAxNS43NEw0IDEwTDEwLjkxIDguMjZMMTIgMloiIGZpbGw9IiMzYjgyZjYiLz4KPC9zdmc+)](https://abhisheks-06.github.io)
+
+## Design Philosophy
+
+**Minimal Professional Design**
+- **Clean Typography**: Inter font family for perfect readability
+- **Light/Dark Mode**: System preference detection with manual toggle
+- **Smooth Animations**: Subtle entrance animations and micro-interactions
+- **Project Modals**: Detailed project information in elegant popups
+- **Interactive Elements**: Skill progress bars and counter animations
+- **Mobile-First**: Optimized for all devices with responsive design
 
 ## Features
 
-### **Futuristic Design System**
-- **Dark Theme**: Deep space-inspired color palette with neon accents
-- **Circuit Aesthetics**: Animated circuit patterns and tech-inspired elements
-- **Neon Glows**: Cyan, green, blue, and purple accent colors with dynamic lighting
-- **Typography**: Orbitron and JetBrains Mono fonts for that authentic tech feel
-
-### **Interactive Elements**
-- **Matrix Effect**: Easter egg terminal command for Matrix digital rain
-- **Interactive Terminal**: Live command interface with multiple commands
-- **Particle System**: Floating particles with connecting lines
-- **Glitch Effects**: Hover animations on key elements
-- **Cursor Trail**: Neon particle trail following mouse movement
-
-### **Advanced UX/UI**
-- **Smooth Animations**: 60fps animations with hardware acceleration
-- **Parallax Scrolling**: Depth-based movement effects
-- **Navigation Indicators**: Side navigation dots with active states
-- **Carousel Controls**: Touch and drag support for project galleries
-- **Skill Visualization**: Animated radar charts and progress bars
-
-### **Technical Features**
+### **Performance & Accessibility**
 - **Performance Optimized**: <100ms load times with lazy loading
 - **Accessibility**: WCAG 2.1 AA compliant with screen reader support
-- **Mobile First**: Fully responsive across all device sizes
-- **PWA Ready**: Service worker and manifest for app-like experience
-- **SEO Optimized**: Structured data and meta tags
+- **Mobile Responsive**: Fully responsive across all device sizes
+- **SEO Optimized**: Structured data and comprehensive meta tags
+- **Cross-browser Compatible**: Works on all modern browsers
 
-## **Sections Overview**
+### **Interactive Elements**
+- **Theme Toggle**: Seamless light/dark mode switching
+- **Scroll Animations**: Elements animate into view on scroll
+- **Skill Bars**: Animated progress indicators
+- **Project Modals**: Detailed project information with smooth transitions
+- **Contact Form**: Functional contact form with validation
+- **Smooth Navigation**: Scroll-to-section navigation with active states
+
+## Content Sections
 
 ### **Academic Foundation**
-University of Texas at Austin - Electrical and Computer Engineering
-- Expected Graduation: May 2028
-- GPA: 3.61
-- Focus: Embedded Systems, AI/ML, Signal Processing
+**University of Texas at Austin** - Electrical and Computer Engineering
+- **Expected Graduation**: May 2027
+- **GPA**: 3.61
+- **Focus Areas**: Embedded Systems, Software Development
 
-### **Technical Arsenal**
-**Languages:** Python, JavaScript, Java, C++, C, SQL, Assembly  
-**Frameworks:** React, React Native, Flask, Node.js, Firebase  
-**Hardware:** Embedded Systems, PCB Design, LTSpice, KiCad  
-**Concepts:** AI/ML, REST APIs, Agile/Scrum, Data Structures
+### **Professional Experience**
+**City of Austin - Youth Forest Council** (Jun 2023 – Jul 2024)
+- Program Intern
+- Led eco-sustainability programs
+- Developed digital dashboards for citizen engagement
 
-### **Innovation Lab**
-1. **Byte Stars** - 2D game on MSPM0+ microcontroller
-2. **ParodyAI** - AI voice synthesis application
-3. **StageNextDoor** - React Native event platform
-4. **Nepali National Parks StoryMap** - GIS visualization
-5. **Trivia Solver Bot** - Automated question solver
+**City of Austin** (Jun 2022 – Jul 2022)
+- Software Engineering Intern
+- Built full-stack web applications
+- Implemented RESTful APIs and real-time functionality
 
-### **Professional Journey**
-- **Program Intern** - City of Austin Youth Forest Council
-- **Software Engineering Intern** - City of Austin
+### **Technical Skills**
+**Languages:** Python, JavaScript, Java, C++, C, SQL  
+**Frameworks:** React, React Native, Flask, Node.js  
+**Tools:** Git, Firebase, Selenium, ArcGIS, VS Code, Linux Terminal  
+**Hardware:** LTSpice, KiCad, Embedded Systems
 
-## **Interactive Commands**
+### **Featured Projects**
 
-Access the terminal (floating button or scroll down) and try these commands:
+#### **Byte Stars**
+2D arcade-style game built on MSPM0+ microcontroller using C++
+- Joystick-controlled sprite movement
+- Custom pixel detection and rendering
+- DAC-driven sound effects
+- Timer interrupt-based game loop
 
-```bash
-help        # View all available commands
-about       # Learn more about me
-projects    # View latest projects  
-skills      # Display technical skills
-contact     # Get contact information
-matrix      # Enter the Matrix
-clear       # Clear terminal
-portfolio   # Open GitHub portfolio
+#### **ParodyAI**
+Full-stack AI voice synthesis application
+- AI voice cloning technology
+- Speaker encoders and neural vocoders
+- React-based user interface
+- Real-time voice processing
+
+#### **StageNextDoor**
+Mobile-first React Native event discovery app
+- Swipe navigation interface
+- Dynamic event filtering
+- Firebase real-time data sync
+- Mobile-optimized design
+
+#### **Nepali National Parks StoryMap**
+Interactive GIS visualization using ArcGIS
+- Multi-layered mapping
+- Spatial narratives
+- Comprehensive park data
+- GIS analysis techniques
+
+#### **Trivia Solver Bot**
+Automated trivia-solving system
+- Selenium web scraping
+- Python string-matching algorithms
+- Real-time answer processing
+- Accuracy optimization
+
+## Technical Implementation
+
+### **File Structure**
+```
+├── index.html               # Main portfolio page
+├── styles-minimal.css       # Clean professional styling  
+├── script-minimal.js        # Interactive functionality
+├── index-futuristic-backup.html  # Backup of original design
+└── README.md               # Documentation
 ```
 
-## **Design Philosophy**
+### **Design Features**
+- **Dark/Light Toggle**: System preference detection with manual override
+- **Smooth Animations**: Subtle entrance effects and micro-interactions
+- **Project Modals**: Detailed project information in elegant popups
+- **Skill Progress Bars**: Animated competency visualization
+- **Counter Animations**: Number counting effects on scroll
+- **Mobile Navigation**: Responsive hamburger menu for mobile devices
 
-This portfolio embodies the intersection of **engineering precision** and **creative innovation**:
+## Getting Started
 
-- **Minimalist Complexity**: Clean interfaces hiding sophisticated functionality
-- **Neon Cyberpunk**: Inspired by sci-fi aesthetics and modern tech interfaces  
-- **Performance First**: Optimized for speed without sacrificing visual appeal
-- **Interactive Storytelling**: Each section tells a part of my technical journey
+### **Local Development**
+```powershell
+# Clone the repository
+git clone https://github.com/AbhishekS-06/abhisheks-06.github.io.git
 
-## **Tech Stack**
+# Navigate to project
+cd abhisheks-06.github.io
 
-```javascript
-const techStack = {
-  frontend: ['HTML5', 'CSS3', 'Vanilla JavaScript'],
-  design: ['Custom CSS Grid', 'Flexbox', 'CSS Animations'],
-  fonts: ['Orbitron', 'JetBrains Mono'],
-  icons: ['Font Awesome 6.4.0'],
-  optimization: ['Lazy Loading', 'Hardware Acceleration'],
-  accessibility: ['ARIA Labels', 'Keyboard Navigation'],
-  responsive: ['Mobile First', 'Progressive Enhancement']
-};
+# Open the portfolio
+start index.html
 ```
 
-## **Performance Metrics**
+### **Live Website**
+Visit [abhisheks-06.github.io](https://abhisheks-06.github.io) to view the live portfolio.
+
+## Design Philosophy
+
+**Minimal Professional Design**
+- **Clean Typography**: Inter font family for perfect readability
+- **Subtle Interactions**: Elegant hover effects and smooth transitions
+- **Professional Focus**: Content-first approach highlighting technical expertise
+- **Accessibility First**: WCAG 2.1 AA compliance with screen reader support
+- **Modern Aesthetics**: Clean layouts with purposeful whitespace
+
+## Performance Metrics
 
 - **Lighthouse Score**: 95+ across all categories
 - **First Contentful Paint**: <1.2s
@@ -105,34 +147,28 @@ const techStack = {
 - **Cumulative Layout Shift**: <0.1
 - **Time to Interactive**: <3.0s
 
-## **Easter Eggs**
-
-1. **Konami Code**: ↑↑↓↓←→←→BA for rainbow effects
-2. **Matrix Command**: Type `matrix` in terminal
-3. **Cursor Trail**: Move mouse to see neon particles
-4. **Glitch Effect**: Hover over name in header
-5. **Sound Effects**: Terminal beeps on command entry
-
-## **Responsive Breakpoints**
+## Responsive Design
 
 ```css
 /* Mobile First Approach */
 320px  → Mobile Portrait
 768px  → Tablet
-1024px → Desktop
+1024px → Desktop  
 1400px → Large Desktop
 ```
 
-## **Key Highlights**
+The portfolio is fully responsive and optimized for all screen sizes with mobile-first design principles.
 
-- **Fast**: Sub-second load times
-- **Beautiful**: Award-worthy visual design
-- **Functional**: Real terminal interface
-- **Responsive**: Perfect on all devices
-- **Accessible**: Screen reader friendly
-- **Modern**: Latest web technologies
+## Key Highlights
 
-## **Connect**
+- **Professional Experience**: Clean, minimal design showcasing technical expertise
+- **Fast Performance**: Sub-second load times with optimized assets
+- **Accessible**: Screen reader friendly with proper ARIA labels and semantic HTML
+- **Modern Stack**: Vanilla JavaScript with CSS Grid & Flexbox
+- **SEO Optimized**: Structured data and comprehensive meta tags
+- **Mobile Optimized**: Responsive design that works perfectly on all devices
+
+## Connect
 
 - **Email**: [theshresthaabhishek@gmail.com](mailto:theshresthaabhishek@gmail.com)
 - **LinkedIn**: [the-shrestha-abhishek](https://linkedin.com/in/the-shrestha-abhishek/)
@@ -142,8 +178,8 @@ const techStack = {
 
 <div align="center">
 
-**Built with love and lots of coffee by Abhishek Shrestha**
+**Built with passion and innovation by Abhishek Shrestha**
 
-*Crafting the future, one line of code at a time*
+*Professional portfolio showcasing modern web development expertise*
 
 </div>
